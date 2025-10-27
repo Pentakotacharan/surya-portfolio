@@ -173,15 +173,15 @@ const Projects = () => {
       description:
         'Full-stack platform connecting founders with investors through intelligent co-founder matching algorithms. Features startup financial tools including equity cap table calculations, valuation models, and convertible notes management.',
       tech: ['React', 'Node.js', 'MongoDB', 'Real-time Chat', 'Express.js'],
-      github: 'https://github.com/yourusername/vertx-start',
-      external: 'https://vertx-start.com',
+      github: 'https://github.com/Prakash9019/VERTX_FE',
+      external: 'https://app.govertx.com/',
     },
     {
       title: 'GeoInsight - Public Service Platform',
       description:
         'React Native platform addressing public service challenges with Google Maps API integration. Features real-time problem reporting and admin dashboard for issue tracking and resolution.',
       tech: ['React Native', 'Express.js', 'Node.js', 'MongoDB', 'Google Maps API'],
-      github: 'https://github.com/yourusername/geoinsight',
+      github: 'https://github.com/Prakash9019/AquaLink',
       external: '',
     },
     {
@@ -189,7 +189,7 @@ const Projects = () => {
       description:
         'Comprehensive mental health platform providing resources, therapy booking, and mental wellness tracking. Built with MERN stack with focus on user privacy and accessibility.',
       tech: ['React', 'Node.js', 'MongoDB', 'Express.js', 'JWT'],
-      github: 'https://github.com/yourusername/mindveda',
+      github: 'https://github.com/Prakash9019/MindVedaPro',
       external: '',
     },
     {
@@ -198,22 +198,22 @@ const Projects = () => {
         'Service marketplace platform connecting service providers with customers. Features user authentication, subscription management, and integrated payment gateway.',
       tech: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'Stripe'],
       github: '',
-      external: 'https://servzpe.com',
+      external: 'https://digital-market-lemon.vercel.app',
     },
-    {
-      title: 'Cricket Quiz & Learning App',
-      description:
-        'Gamified cricket quiz application with unique user ID generation, MongoDB integration, and comprehensive result tracking system. Features JWT authentication and CORS-enabled API.',
-      tech: ['React', 'Node.js', 'MongoDB', 'Express.js', 'JWT'],
-      github: 'https://github.com/yourusername/cricket-quiz',
-      external: '',
-    },
+    // {
+    //   title: 'Cricket Quiz & Learning App',
+    //   description:
+    //     'Gamified cricket quiz application with unique user ID generation, MongoDB integration, and comprehensive result tracking system. Features JWT authentication and CORS-enabled API.',
+    //   tech: ['React', 'Node.js', 'MongoDB', 'Express.js', 'JWT'],
+    //   github: 'https://github.com/yourusername/cricket-quiz',
+    //   external: '',
+    // },
     {
       title: 'NutriFusion - Nutrition Tracker',
       description:
         'Web application for tracking nutrition and creating personalized meal plans. Integrates with nutrition APIs for comprehensive food database.',
       tech: ['React', 'Node.js', 'MongoDB', 'Nutrition API', 'Chart.js'],
-      github: 'https://github.com/yourusername/nutrifusion',
+      github: 'https://github.com/Prakash9019/NUTRI-FUSION-HUB',
       external: 'https://nutrifusion.vercel.app',
     },
   ];
@@ -246,7 +246,7 @@ const Projects = () => {
         animate={controls}
         variants={variants}
       >
-        <h2>Some Things I've Built</h2>
+       <h2 className="numbered-heading">Some Things I've Built</h2>
 
         <ul className="projects-grid">
           {projects.map((project, i) => (

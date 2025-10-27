@@ -226,11 +226,10 @@ const Jobs = () => {
     <StyledJobsSection id="jobs" ref={ref}>
       <motion.div
         initial="hidden"
-        animate={controls}
+        animate={controls} 
         variants={variants}
       >
         <h2 className="numbered-heading">Where I've Worked</h2>
-
         <div className="inner">
           <StyledTabList role="tablist" aria-label="Job tabs">
             {jobsData.map((job, i) => (

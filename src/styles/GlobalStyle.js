@@ -63,6 +63,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: var(--navy);
     color: var(--slate);
     font-family: var(--font-sans);
+      counter-reset: section;
     font-size: var(--fz-xl);
     line-height: 1.3;
 

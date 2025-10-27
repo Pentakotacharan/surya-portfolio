@@ -73,9 +73,10 @@ const Contact = () => {
           MERN stack development, or product management.
         </p>
 
-        <a className="email-link" href="mailto:plsprakash2003@gmail.com">
-          Say Hello
-        </a>
+<a className="email-link" href="mailto:plsprakash2003@gmail.com">
+  Say Hello
+</a>
+
       </motion.div>
     </StyledContactSection>
   );
