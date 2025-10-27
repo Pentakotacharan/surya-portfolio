@@ -75,12 +75,12 @@ const Social = () => {
   const socialMedia = [
     {
       name: 'GitHub',
-      url: 'https://github.com/yourusername',
+      url: 'https://github.com/Prakash9019',
       icon: <FiGithub />,
     },
     {
       name: 'LinkedIn',
-      url: 'https://www.linkedin.com/in/yourprofile',
+      url: 'https://www.linkedin.com/in/suryaprakashloka',
       icon: <FiLinkedin />,
     },
     {

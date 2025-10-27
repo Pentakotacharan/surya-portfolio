@@ -99,7 +99,10 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabIndex="-1">
-        <a href="https://github.com/bchiang7/v4" target="_blank" rel="noreferrer">
+         <div>
+            <strong>Tech Stack:</strong> React, Gatsby, Styled Components, Framer Motion, Node.js, MongoDB, Vercel/Netlify
+        </div>
+        <a href="" target="_blank" rel="noreferrer">
           <div>Design inspired by Brittany Chiang</div>
         </a>
 

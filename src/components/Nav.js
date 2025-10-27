@@ -196,7 +196,7 @@ const Nav = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.3, delay: 0.5 }}
           >
-            <a href="/resume.pdf" className="resume-button" target="_blank" rel="noopener noreferrer">
+            <a href="https://drive.google.com/file/d/1MH2q-ylGs8OSCrGF2F6pN9GVYLtCoZyC/view?usp=sharing" className="resume-button" target="_blank" rel="noopener noreferrer">
               Resume
             </a>
           </motion.div>
