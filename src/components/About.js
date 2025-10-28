@@ -195,7 +195,7 @@ const About = () => {
                 className="img"
                 src={profilePic}
                 width={300}
-                height={400}
+                height={350}
                 alt="Profile"
               />
             </div>
